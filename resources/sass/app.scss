@@ -1,0 +1,117 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+//custom fonts
+@import "fonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: Anonymous;
+}
+
+.content-wrapper {
+  padding: 0;
+  background-color: transparent;
+  flex: 1 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  /*padding: 15px 0px;*/
+  /*background-color: rgba(0,0,0,0.05);*/
+  box-shadow:  1px -8px 25px 8px rgba(0,0,0,.2);
+}
+
+footer {
+  box-shadow: 1px 17px 52px 8px rgba(0,0,0,.2);
+  flex-shrink: 0;
+  /*background-color: rgba(0,0,0,0.05);*/
+  padding: 15px 0px;
+}
+
+main {
+  margin-top: 30px;
+  min-height: 450px;
+}
+.logo {
+  width: 300px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-right: 10%;
+}
+.menu a {
+  font-family: "Anonymous";
+  margin: 5px;
+  font-weight: bold;
+  display: flex;
+  text-transform: uppercase;
+  color: #000;
+  padding: 15px;
+  border-radius: 2.5px;
+  transition: background-color .3s linear;
+}
+.menu a.active {
+  background-color: #fff700;
+}
+.menu a:hover {
+  background-color: #fff700;
+}
+a:hover {
+  text-decoration: none;
+}
+.pointer {
+  cursor: pointer;
+}
+.content {
+  padding: 30px 15px;
+  background-color: #e9ecef;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-t-15 {
+  padding-top: 15px;
+}
+
+.page-item.active .page-link {
+  background-color: #000;
+  border-color: #000;
+}
+.page-link:focus {
+  box-shadow: none;
+}
+
+.footer-menu {
+  font-size: 14px;
+  font-family: Anonymous;
+}
+
+.footer-menu .link {
+  padding: 15px;
+}
+/*catalog*/
+.catalog-panel {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
